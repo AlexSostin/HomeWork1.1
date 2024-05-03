@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function fizzBuzz() {
+    for (let i = 1; i <= 100; i++) { // Начинаем с 1, а не с 0
+        if (i % 15 === 0) {         // Сначала проверяем кратность 15 (3 и 5)
+            console.log("FizzBuzz");
+        } else if (i % 3 === 0) {   // Затем кратность 3
+            console.log("Fizz");
+        } else if (i % 5 === 0) {   // Затем кратность 5
+            console.log("Buzz");
+        } else {                    // Во всех остальных случаях выводим число
+            console.log(i);
+        }
+    }
+}
+
+fizzBuzz(); 
+
+            
+
+
+
+    </script>
+</body>
+</html>
